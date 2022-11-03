@@ -1,0 +1,50 @@
+:root{
+    /* Colors Primary */
+    
+
+    --Softorange: hsl(35, 77%, 62%);
+    --Softred: hsl(5, 85%, 63%);
+
+    
+     /* Colors Neutral */
+
+     --Offwhite: hsl(36, 100%, 99%);
+     --Grayishblue: hsl(233, 8%, 79%);
+     --Darkgrayishblue: hsl(236, 13%, 42%);
+     --Verydarkblue: hsl(240, 100%, 5%);
+     
+    /* Fonts */
+
+    --font:'Inter', sans-serif;
+}
+
+/* Global */
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 15rem 15rem 15rem;
+}
+
+.main{
+    background-color: black;
+    
+   width: 100%;
+   height: 100%;
+}
+
+
+
